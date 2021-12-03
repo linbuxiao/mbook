@@ -1,14 +1,14 @@
 syntax = "proto3";
 
-package proto;
+package pb;
 
-option go_package = "mbook/proto";
+option go_package = "mbook/pb";
 
-import "proto/processor_manager.proto";
-import "proto/memory_message.proto";
-import "proto/storage_message.proto";
-import "proto/keyboard_message.proto";
-import  "proto/screen_message.proto";
+import "pb/processor_manager.proto";
+import "pb/memory_message.proto";
+import "pb/storage_message.proto";
+import "pb/keyboard_message.proto";
+import  "pb/screen_message.proto";
 import "google/protobuf/timestamp.proto";
 
 message Laptop {
