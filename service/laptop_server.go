@@ -12,6 +12,7 @@ import (
 
 type LaptopServer struct {
 	Store LaptopStore
+	pb.UnimplementedLaptopServiceServer
 }
 
 func NewLapTopServer(store LaptopStore) *LaptopServer {
